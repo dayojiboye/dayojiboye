@@ -10,7 +10,9 @@ function App() {
   return (
     <>
       <AnimatePresence exitBeforeEnter>
-        <Home />
+        <main className="main">
+          <Home />
+        </main>
       </AnimatePresence>
     </>
   );

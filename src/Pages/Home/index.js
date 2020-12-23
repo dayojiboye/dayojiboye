@@ -10,7 +10,7 @@ const pathVariants = {
   visible: {
     pathLength: 1,
     transition: {
-      duration: 5,
+      duration: 7,
       ease: 'easeInOut',
     },
   },
@@ -24,6 +24,7 @@ const Home = () => {
         height="72.001"
         viewBox="0 0 226.901 72.001"
         xmlns="http://www.w3.org/2000/svg"
+        className={classes.comingSvg}
       >
         <g
           strokeLinecap="round"
